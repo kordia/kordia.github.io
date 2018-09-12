@@ -5,7 +5,7 @@
 }
 .page_header {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 0;
     width: 100%;
     transform: translateY(-50%);
@@ -19,9 +19,23 @@
 .memo{
     margin-bottom: 0px;
 }
+.hero-inner p{
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
 
 
 @media (min-width:768px){
+    .page_header {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        transform: translateY(-50%);
+        color:#4cbfa0;
+        font-size: 17px;
+        margin: 0;
+    }
     .notify{
         background-color: #0c9e77;
     }
@@ -90,12 +104,13 @@
     }
     .hero-inner p {
         font-size: 20px;
+
+    }
+    .hero-inner{
+        padding-bottom: 8px;
     }
 }
-.page_header{
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
+
 .main-nav a:hover{
     color: white;
 }
